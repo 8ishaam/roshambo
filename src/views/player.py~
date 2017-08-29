@@ -1,0 +1,6 @@
+class PlayerView(object):
+    def __init__(self, controller):
+        self.controller = controller
+
+    def render(self):
+        print(self.controller.model.__dict__)

@@ -1,0 +1,36 @@
+{
+  "messages" : {
+    "EN": {
+      "main_menu_prompt": "Which mode do you prefer ?\n(1) Player vs Computer\n(2) Computer vs Computer\n(other key) Quit\n",
+      "invalid_input": "Invalid input, retry!!",
+      "play_prompt": "\nYour turn, (r)ock (p)aper or (s)cissors ?\n> ",
+      "you_win": "You Win",
+      "game_over": "Game Over, you lose",
+      "redirect": "Redirecting, please wait ..."
+    }
+  },
+  "patterns":{
+    "move_input": "[rRpPsS]$",
+    "menu_input": "[123]$"
+  },
+  "power_matrix": {
+    "R": "S",
+    "P": "R",
+    "S": "P"
+  },
+  "labels": {
+    "EN": {
+      "moves": ["Rock", "Paper", "Scissors"],
+      "last_move": "- Last Move: %s",
+      "score": "- Score: %d"
+    }
+  },
+  "porting": {
+    "cmd" : {
+      "clear": {
+        "windows": "cls",
+        "other_os": "clear"
+      }
+    }
+  }
+}
